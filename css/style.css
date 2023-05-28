@@ -1,0 +1,135 @@
+        body {
+            text-align: center;
+        }
+        
+        #title {
+            background-color: #87ceeb;
+        }
+        
+        .big-heading {
+            font-family: 'DynaPuff';
+            font-size: 3.5rem;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+        
+        .small-heading {
+            font-family: 'Dancing Script';
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+        
+        .container-fluid {
+            padding: 3% 15% 7%;
+        }
+        /* playing with Tables */
+        
+        td label {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #f0f8ff;
+            float: left;
+        }
+        
+        .setToCenter {
+            margin: auto;
+        }
+        
+        .setBorder,
+        .setBorderBottom {
+            border: none;
+            margin: 5px;
+        }
+        /* Form Border */
+        
+        .formBorder {
+            width: 60%;
+            border: none;
+            border-radius: 40px;
+            padding: 10px;
+        }
+        /* Navigation bar */
+        
+        .navbar {
+            padding-bottom: 5rem;
+        }
+        
+        .navbar-brand {
+            font-family: 'Abel';
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-item {
+            padding: 0 18px;
+        }
+        
+        .nav-link {
+            font-size: 1.2rem;
+        }
+        /* Chota Dhobi */
+        
+        .chota-dhobi-icon {
+            height: 12%;
+            width: 12%;
+            margin: 10px;
+        }
+        /* Pricing section */
+        
+        #pricing {
+            padding: 100px;
+        }
+        
+        .pricing-col {
+            padding: 3% 2%;
+        }
+        /* Contact Section */
+        /*About Section */
+        
+        .about-us {
+            font-style: italic;
+            /* margin: 0%; */
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .about-writeup {
+            margin: 0 5%;
+            text-align: justify;
+        }
+        /*Login Section */
+        
+        .log-in-heading {
+            font-family: 'DynaPuff';
+            font-size: 3.5rem;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 20px;
+        }
+        
+        .log-in {
+            margin: 30px;
+            font-style: italic;
+        }
+        
+        #signin-button {
+            margin: 0 10px 0 10px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        
+        #signin-button:hover {
+            transition-duration: 0.5s;
+            background-color: #000;
+            color: #fff;
+        }
+        /* Footer Section */
+        
+        .footer {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }

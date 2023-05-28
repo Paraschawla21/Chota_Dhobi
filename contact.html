@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Chota Dhobi</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=DynaPuff&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+
+        <!-- CSS Style sheets -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Icons link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <style>
+            section.content-sec {
+                padding-bottom: 50px;
+            }
+
+            .sidebar-contact {
+                margin-top: 50%;
+                border: 2px solid;
+                background-color: #9ed5eb;
+            }
+
+            .sidebar-contact button {
+                margin: 20px;
+            }
+
+            .log-in-heading2 {
+                font-family: "DynaPuff";
+                font-size: 1.5rem;
+                font-weight: bold;
+                line-height: 1.5;
+                margin: 20px;
+            }
+
+            .form-group {
+                text-align: left;
+                font-size: 1.5rem;
+                margin: 5px;
+            }
+
+            .form-group input {
+                margin: 5px;
+                width: 70%;
+            }
+
+            .address {
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="content-sec" style="background-color: #87ceeb">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 sec-border">
+                            <h3 class="mb-md-4 log-in-heading">Contact Us</h3>
+                            <form
+                                id="contactform"
+                                method="post"
+                                novalidate="novalidate"
+                            >
+                                <div class="form-group">
+                                    <label
+                                        >NAME
+                                        <span class="text-danger"
+                                            >*
+                                        </span></label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="name"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label
+                                        >EMAIL
+                                        <span class="text-danger"
+                                            >*
+                                        </span></label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="email"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label
+                                        >MOBILE NUMBER
+                                        <span class="text-danger">* </span>
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        name="mobile"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label>FEEDBACK</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="message"
+                                    />
+                                </div>
+                                <div
+                                    class="btn-group-toggle float-right mt-4 mb-4"
+                                >
+                                    <button
+                                        class="btn btn-outline-primary btn-register"
+                                        type="submit"
+                                        onclick="submitted()"
+                                    >
+                                        Submit
+                                    </button>
+                                    <button
+                                        class="btn btn-outline-danger"
+                                        type="button"
+                                        onclick="resetform();"
+                                        c=""
+                                    >
+                                        Reset
+                                    </button>
+                                    <button
+                                        class="btn btn-outline-danger"
+                                        type="button"
+                                        onclick="window.location.href='index.php'"
+                                        c=""
+                                    >
+                                        Return
+                                    </button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                            <div class="address">
+                                <h2>ADDRESS</h2>
+                                <p>
+                                    VIT Vellore, 632014 <br />Vellore, Tamil
+                                    Nadu <br />PH:
+                                    <a href="tel:+918954471051"
+                                        >+91 89544 71051</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="sidebar">
+                                <div class="sidebar-contact">
+                                    <h3 class="log-in-heading2">Call Us Now</h3>
+                                    <a
+                                        style="font-size: 1.35rem"
+                                        href="tel:+918954471051"
+                                        >+91 89544 71051</a
+                                    >
+                                    <br />
+                                    <button>
+                                        <a
+                                            href="https://www.facebook.com/share?url=http://www.chotadhobi.com/#"
+                                            rel="nofollow"
+                                            target="_blank"
+                                            class="open-popupwindow facebook"
+                                            ><i class="fa fa-thumbs-up"></i>
+                                            Like</a
+                                        >
+                                    </button>
+                                    <button>
+                                        <a
+                                            href="https://twitter.com/share?url=http://www.chotadhobi.com/#"
+                                            rel="nofollow"
+                                            target="_blank"
+                                            class="open-popupwindow twitter"
+                                            ><i class="fa fa-twitter"></i>
+                                            Tweet</a
+                                        >
+                                    </button>
+                                    <button>
+                                        <a
+                                            href="https://www.linkedin.com/share?url=http://www.chotadhobi.com/#"
+                                            rel="nofollow"
+                                            target="_blank"
+                                            class="open-popupwindow linkedin"
+                                            ><i class="fa fa-linkedin"></i>
+                                            Share></a
+                                        >
+                                        >
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <!-- Footer -->
+    <footer class="py-4" style="background-color: #0e2431">
+        <div class="footer">
+            <p class="m-0 text-center text-white">
+                Copyright © Chota Dhobi Laundry Solutions Pvt Ltd 2022
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function submitted() {
+            alert("Feedback Submitted!");
+        }
+    </script>
+</html>

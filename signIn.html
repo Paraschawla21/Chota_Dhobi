@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Chota Dhobi</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=DynaPuff&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+
+        <!-- CSS Style sheets -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Icons link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+
+    <body style="background-color: #87ceeb">
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+
+        <h1 class="log-in-heading">Chota Dhobi</h1>
+        <h2 class="log-in">Log in to your Account</h2>
+        <div class="formBorder setToCenter" style="margin-bottom: 4.1rem">
+            <form action="update.php" method="post">
+                <div style="font-size: 1.2rem; font-weight: 500">
+                    <table class="setToCenter">
+                        <tr>
+                            <td><label>USERNAME</label></td>
+                            <td>
+                                <input
+                                    type="username"
+                                    name="userName"
+                                    placeholder="Username"
+                                    required
+                                    class="setBorder"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>PASSWORD</label></td>
+                            <td>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    placeholder="********"
+                                    required
+                                    class="setBorder"
+                                />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <div style="font-size: 1.2rem">
+                    <label style="color: #f0f8ff">Not a Member?</label>
+                    <label>
+                        <a href="signUp.html">Register</a>
+                    </label>
+                    <br />
+                    <br />
+                    <input
+                        type="submit"
+                        name="signinButton"
+                        id="signin-button"
+                    />
+                </div>
+            </form>
+        </div>
+    </body>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background-color: #0e2431">
+        <div class="footer">
+            <p class="m-0 text-center text-white">
+                Copyright © Chota Dhobi Laundry Solutions Pvt Ltd 2022
+            </p>
+        </div>
+    </footer>
+</html>
